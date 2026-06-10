@@ -1,16 +1,110 @@
-# React + Vite
+# STYLORA - Fashion Shopping Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+STYLORA is a modern fashion e-commerce web application built using React.js and Redux Toolkit. The platform allows users to browse products, search items, manage a shopping cart, maintain a wishlist, and simulate order placement through an intuitive and responsive user interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Product browsing by category
+* Search functionality
+* Shopping cart management
+* Wishlist management
+* Quantity increment and decrement
+* Remove products from cart
+* Order placement simulation
+* Responsive design for desktop and mobile devices
+* State management using Redux Toolkit
 
-## React Compiler
+## Categories
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Men Wear
+* Women Wear
+* Kids Wear
+* Bags
+* Accessories
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+
+* React.js
+* JavaScript
+* HTML5
+* CSS3
+
+### State Management
+
+* Redux Toolkit
+* React Redux
+
+### Development Tools
+
+* Vite
+* VS Code
+* Git & GitHub
+
+## Project Structure
+
+```text
+src/
+├── components/
+├── data/
+├── redux/
+├── assets/
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/madhumitha-3007/stylora-shopping-website.git
+```
+
+2. Navigate to the project directory
+
+```bash
+cd stylora-shopping-website
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+## Key Learning Outcomes
+
+* Component-based architecture in React
+* State management using Redux Toolkit
+* Cart and wishlist implementation
+* Product filtering and search
+* Responsive web design
+* Git and GitHub version control
+
+## Future Enhancements
+
+* User Authentication
+* Backend Integration
+* Payment Gateway Integration
+* Product Reviews and Ratings
+* Order History
+* Database Support using MongoDB
+
+## Author
+
+**Madhumitha P S**
+
+Engineering Student | Full Stack Development Enthusiast
+
+---
+
+⭐ If you like this project, consider giving it a star on GitHub.
